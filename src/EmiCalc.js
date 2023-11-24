@@ -111,7 +111,7 @@ class EmiCalc extends React.Component {
         <div className=" mt-5 gap-5 p-5 emi-glance">
           <div>
             <img 
-             src={process.env.PUBLIC_URL + '/assets/images/emi55.png'}
+             src={process.env.PUBLIC_URL + '/assets/images/cre9.png'}
             ></img>
           </div>
           <div className="  text-black rounded-xl">

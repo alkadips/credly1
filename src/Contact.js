@@ -41,11 +41,19 @@ export default function Contact() {
       
         
       </div>
+      <div className="flex justify-around mt-3 font-bold">
+          <div>CORPORATE OFFICE</div>
+<div>Contact Us</div>
+          <div>BRANCH OFFICE</div>
+
+
+        </div>
       <div className="flex justify-around mt-2 gap-5 p-3">
           <div className="text-center w-1/4">
             #147, 7th sector 5th Main, HSR layout Bangalore – 560102 Karnataka,
             India
           </div>
+          <div>support@credely.in</div>
           <div className="text-center w-1/4">
             Sacred Heart Mall,  Wanowrie, Pune, Maharashtra,411040,India
           </div>

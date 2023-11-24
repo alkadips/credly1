@@ -25,7 +25,7 @@ export default function Blog() {
               <div className="snip1527 clickfin-para-home" style={{border:'1px solid black'}}>
                 <div class="image">
                   <img 
-                  src={process.env.PUBLIC_URL + '/assets/images/1.jpg'}
+                  src={process.env.PUBLIC_URL + '/assets/images/cre3.png'}
                    alt="pr-sample25" />
                 </div>
 
@@ -73,7 +73,7 @@ export default function Blog() {
               <div className="snip1527 clickfin-para-home" style={{border:'1px solid black'}}>
                 <div class="image">
                   <img 
-                  src={process.env.PUBLIC_URL + '/assets/images/2.jpg'}
+                  src={process.env.PUBLIC_URL + '/assets/images/cre66.png'}
                    alt="pr-sample25" />
                 </div>
                 <figcaption>
@@ -330,7 +330,7 @@ export default function Blog() {
               <div className="snip1527 clickfin-para-home" style={{border:'1px solid black'}}>
                 <div class="image">
                   <img 
-                  src={process.env.PUBLIC_URL + '/assets/images/4.jpg'}
+                  src={process.env.PUBLIC_URL + '/assets/images/cre.png'}
                    alt="pr-sample25" />
                 </div>
                 <figcaption>
