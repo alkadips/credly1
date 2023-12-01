@@ -5,8 +5,6 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 
 export default function Homepage() {
-  const [upwords, setupwords] = useState(false);
-  const [laontap, setLoanTap] = useState(false);
   
 
   const style = {

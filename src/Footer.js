@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
         
         <div>
-          <div className="font-bold">PRODUCTS</div>
+          <div className="font-bold text-black">PRODUCTS</div>
           <Link target="_blank"
             className="no-underline text-black"
             onClick={() => {
@@ -51,7 +51,7 @@ export default function Footer() {
           </Link>
         </div>
         <div>
-          <div className="font-bold">RESOURCES</div>
+          <div className="font-bold text-black">RESOURCES</div>
           <Link target="_blank"
             className="no-underline text-black"
             onClick={() => {
@@ -72,7 +72,7 @@ export default function Footer() {
           </Link>
         </div>
         <div>
-          <div className="font-bold">COMPANY</div>
+          <div className="font-bold text-black">COMPANY</div>
           <Link target="_blank"
             className="no-underline text-black"
             onClick={() => {
@@ -94,7 +94,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="font-bold">MORE</div>
+          <div className="font-bold text-black">MORE</div>
           <Link target="_blank"
             className="no-underline text-black"
             onClick={() => {
@@ -115,7 +115,7 @@ export default function Footer() {
           </Link>
         </div>
         <div>
-        <div className="font-bold">CONTACT US</div>
+        <div className="font-bold text-black">CONTACT US</div>
 
           <div className="flex   mt-3 gap-5 justify-center">
             <div>
@@ -143,42 +143,43 @@ export default function Footer() {
           <div className="flex justify-center mt-3 gap-2">
             <div>
               <Link target="_blank"
-                className="text-black no-underline"
+                className="text-white no-underline"
                 to="https://www.facebook.com/ClikFin/"
               >
-                <IoLogoFacebook />
+                <IoLogoFacebook style={{background: '#0d6efd',borderRadius: "50%", width: '27px',height: '27px',padding: '4px'}} />
+                
               </Link>
             </div>
             <div>
               <Link target="_blank"
-                className="text-black no-underline"
+                className="text-white no-underline"
                 to="https://twitter.com/clikfin?lang=en"
               >
-                <IoLogoTwitter />
+                <IoLogoTwitter style={{background: '#fe4f50',borderRadius: "50%", width: '27px',height: '27px',padding: '4px'}}/>
               </Link>
             </div>
             <div>
               <Link target="_blank"
-                className="text-black no-underline"
+                className="text-white no-underline"
                 to="https://www.instagram.com/clikfin/?hl=en"
               >
-                <IoLogoInstagram />
+                <IoLogoInstagram style={{background: '#16baff',borderRadius: "50%", width: '27px',height: '27px',padding: '4px'}}/>
               </Link>
             </div>
             <div>
               <Link target="_blank"
-                className="text-black no-underline"
+                className="text-white no-underline"
                 to="https://www.linkedin.com/company/clikfin/"
               >
-                <IoLogoLinkedin />
+                <IoLogoLinkedin style={{background: '#0d6efd',borderRadius: "50%", width: '27px',height: '27px',padding: '4px'}}/>
               </Link>
             </div>
             <div>
               <Link target="_blank"
-                className="text-black no-underline"
+                className="text-white no-underline"
                 to="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=support@clikfin.com"
               >
-                <IoIosMail />
+                <IoIosMail style={{background: '#0d6efd',borderRadius: "50%", width: '27px',height: '27px',padding: '4px'}}/>
               </Link>
             </div>
           </div>
